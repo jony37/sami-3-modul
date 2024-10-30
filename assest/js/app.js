@@ -92,7 +92,7 @@
 //       color: "black",
 //     };
 //     console.log("Processing data...");
-    
+
 //     resolve(product);
 //   }, 2000);
 // });
@@ -109,7 +109,6 @@
 // .then((result) => console.log(result))
 // .catch(() => console.log("Somethink went wrong"))
 // .finally(() => console.log("Fetching end"));
-
 
 // 56 DARS PROMISE METHOD
 // const request = (time) => {
@@ -129,3 +128,14 @@
 // Promise.race([request(1000), request(2000), request(3000)]).then(() => {
 //     console.log("All");
 // })
+
+// 57 dars Featch Apiв
+fetch("https://jsonplaceholder.typicode.com/posts", {
+    method: "POST",
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({name: 'jony'}),
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
