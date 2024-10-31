@@ -129,13 +129,47 @@
 //     console.log("All");
 // })
 
-// 57 dars Featch Apiв
-fetch("https://jsonplaceholder.typicode.com/posts", {
-    method: "POST",
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({name: 'jony'}),
-})
-  .then((response) => response.json())
-  .then((json) => console.log(json));
+// // 57 dars Featch Api
+// fetch("https://jsonplaceholder.typicode.com/posts", {
+//     method: "POST",
+//     headers: {
+//       'Content-Type': 'application/json',
+//     },
+//     body: JSON.stringify({name: 'jony'}),
+// })
+//   .then((response) => response.json())
+//   .then((json) => console.log(json));
+
+
+// 58 dars Map Filter Reduce
+// // Map method 
+// const car = ['MErc', 'BmW', "RolCE RoyCe"];
+// const arr = car.map((item) => item.toLowerCase())
+// console.log(arr);
+
+// // Filter methodi
+// const car = ['mercedes benz', 'bmw', 'audi', 'rollce royce'];
+// const arr = car.filter(item => item.length < 5)
+// console.log(arr);
+
+// // Some every
+// const arr = [1, 'samar', true];
+// console.log(arr.some(item => typeof(item) === 'number'));
+
+// Reduce
+// const arr = [4, 32, 1,3]
+// //                   10 || 0     4
+// //                         4     32
+// //                        36     1
+// //                        37     3
+// //                        40     0
+// const joha = arr.reduce((sum, current ) => sum + current, 10);
+// console.log(joha);
+
+// const car = ['bmw', 'mers', 'porshe'];
+// const res = car.reduce((cum, current) => `${cum}, ${current}`);
+// console.log(res);
+
+
+
+
