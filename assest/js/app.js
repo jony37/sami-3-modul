@@ -170,6 +170,14 @@
 // const res = car.reduce((cum, current) => `${cum}, ${current}`);
 // console.log(res);
 
+// 59 NPM
+// ""
+
+// 60 Json server amaliyot
+// ""
+
+// 61 Async / Await amaliyot
+// ""
 
 
 
